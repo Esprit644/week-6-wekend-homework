@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Superhero</title>
+    <script src= "js/app.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+  </head>
+  <body>
+
+
+    <form id="new-item-form">
+
+      <div id="form-wrapper">
+        <div class="form-item">
+          <label for="firstname" class="primary">First name</label>
+          <input type="text" id="firstname" required/>
+        <!-- </div> -->
+
+        <!-- <div class="form-item"> -->
+          <label for="lastname" class="primary">Surname</label>
+          <input type="text" id="lastname" required/>
+        </div>
+
+
+
+        <div class="form-item">
+          <label for="superherolist" class="primary">Superhero</label>
+          <select id="superherolist">
+            <option value="" disabled selected></option>
+            <option value="superman">Superman</option>
+            <option value="spiderman">Spiderman</option>
+            <option value="wonder woman">Wonder Woman</option>
+            <option value="magnum">Magnum</option>
+          </select>
+        </div>
+
+
+      </div>
+      <input type="submit" value="save"/>
+
+
+    </form>
+
+
+
+    <h1>Your fav Superhero</h1>
+    <ul id ="hero-list"></ul>
+    <button type="button" id="button">Delete All</button>
+  </body>
+</html>

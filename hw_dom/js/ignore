@@ -1,0 +1,13 @@
+const retrieveInput = document.createElement('li');
+
+itemFirstname = document.createElement('h3');
+itemLastName = document.createElement('h3');
+itemSuperhero = document.createElement('h2');
+
+itemFirstname.textContent = (`${event.target.firstname.value}`);
+itemLastName.textContent = (`${event.target.lastname.value}`);
+itemSuperhero.textContent = (`${event.target.superherolist.value}`);
+
+retrieveInput.appendChild(itemFirstname);
+retrieveInput.appendChild(itemLastName);
+retrieveInput.appendChild(itemSuperhero);
